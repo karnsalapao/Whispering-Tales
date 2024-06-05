@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8694916016328096282}
   - component: {fileID: 6543678665374110843}
   - component: {fileID: 2957495129216916215}
+  - component: {fileID: 4468992964575381722}
   m_Layer: 5
   m_Name: StoryButton
   m_TagString: Untagged
@@ -32,6 +33,7 @@ RectTransform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -132,3 +134,15 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &4468992964575381722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3297867078189700582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b8e9504697456c4a820334135444b08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
