@@ -3,7 +3,22 @@ guid: 6d09f5066fa6c4ba6a0b8c31ea4e4fda
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: 889955fa0379b4b059abeab627edca89, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tiny Iris 1.3 (Style Amber)
+    second: {fileID: 2100000, guid: 5c695b73525234a00abcd66c8030857f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tiny Sclera 1.3 (Style Amber)
+    second: {fileID: 2100000, guid: 0eb19e7ec5f0e4fcfb54bc0560823512, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
