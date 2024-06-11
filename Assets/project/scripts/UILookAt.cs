@@ -5,18 +5,15 @@ using UnityEngine;
 
 public class UILookAt : MonoBehaviour
 {
-    //XROrigin origin;
+    XROrigin origin;
 
-    //void Start()
-    //{
-    //    origin = FindObjectOfType<XROrigin>();
-    //}
+    void Start()
+    {
+        origin = FindObjectOfType<XROrigin>();
+    }
 
-    //void Update()
-    //{
-    //    var oldRot = transform.rotation;
-    //    transform.LookAt(origin.transform);
-    //    oldRot = new Quaternion(oldRot.x, transform.rotation.y, oldRot.z, oldRot.w);
-    //    transform.rotation = oldRot;
-    //}
+    void Update()
+    {
+        transform.LookAt(Camera.main.transform, Vector3.up);
+    }
 }
