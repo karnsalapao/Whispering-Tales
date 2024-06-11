@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.08039774, g: 0.09977928, b: 0.3010583, a: 1}
+  m_IndirectSpecularColor: {r: 0.08029684, g: 0.09968388, b: 0.30096632, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 7d53fa735bc8148828646276f8de8a5e, type: 2}
   m_LightingSettings: {fileID: 4890085278179872738, guid: aebe585c5fe1a4ad78faa85f2a58457d, type: 2}
 --- !u!196 &4
 NavMeshSettings:
@@ -289,6 +289,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 2822662999635553157, guid: a266b0edb74004910856a13233e66d91, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.641
+      objectReference: {fileID: 0}
     - target: {fileID: 2890128708651920079, guid: a266b0edb74004910856a13233e66d91, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
@@ -309,6 +313,22 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 3682590787212970778, guid: a266b0edb74004910856a13233e66d91, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f48ab26bcde714dc39d4ecd64729098b, type: 2}
+    - target: {fileID: 3682590787212970778, guid: a266b0edb74004910856a13233e66d91, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4bf191e087d334f4b887b96c9ddd8543, type: 2}
+    - target: {fileID: 3682590787212970778, guid: a266b0edb74004910856a13233e66d91, type: 3}
+      propertyPath: m_Materials.Array.data[3]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4cedc773934ed47c7af74dc5c5410ed3, type: 2}
+    - target: {fileID: 3682590787212970778, guid: a266b0edb74004910856a13233e66d91, type: 3}
+      propertyPath: m_Materials.Array.data[4]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2b2a9263fa918477db7058e922893700, type: 2}
     - target: {fileID: 3693243090239058710, guid: a266b0edb74004910856a13233e66d91, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
@@ -344,6 +364,26 @@ PrefabInstance:
     - target: {fileID: 6980842339627652477, guid: a266b0edb74004910856a13233e66d91, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7224870867438744536, guid: a266b0edb74004910856a13233e66d91, type: 3}
+      propertyPath: m_Range
+      value: 6.3085957
+      objectReference: {fileID: 0}
+    - target: {fileID: 7224870867438744536, guid: a266b0edb74004910856a13233e66d91, type: 3}
+      propertyPath: m_Color.b
+      value: 0.41037738
+      objectReference: {fileID: 0}
+    - target: {fileID: 7224870867438744536, guid: a266b0edb74004910856a13233e66d91, type: 3}
+      propertyPath: m_Color.g
+      value: 0.7802763
+      objectReference: {fileID: 0}
+    - target: {fileID: 7224870867438744536, guid: a266b0edb74004910856a13233e66d91, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7505612124688003167, guid: a266b0edb74004910856a13233e66d91, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.069
       objectReference: {fileID: 0}
     - target: {fileID: 8394311504038361839, guid: a266b0edb74004910856a13233e66d91, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -1310,8 +1350,8 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 0.6709026, b: 0.33490568, a: 1}
-  m_Intensity: 1
+  m_Color: {r: 1, g: 0.6179913, b: 0.33333337, a: 1}
+  m_Intensity: 1.5
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -1369,13 +1409,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2045409068}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalRotation: {x: 0.24102819, y: -0.25063175, z: 0.064583294, w: 0.9353706}
   m_LocalPosition: {x: -9.939999, y: 1.3699999, z: 6.5200005}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1518464965}
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+  m_LocalEulerAnglesHint: {x: 28.9, y: -30, z: 0}
 --- !u!114 &2045409071
 MonoBehaviour:
   m_ObjectHideFlags: 0

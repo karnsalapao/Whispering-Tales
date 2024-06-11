@@ -3,7 +3,32 @@ guid: 4b20423a6a4804aeb97d220c21fe1b3d
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: 4cedc773934ed47c7af74dc5c5410ed3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.003
+    second: {fileID: 2100000, guid: 2b2a9263fa918477db7058e922893700, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: body
+    second: {fileID: 2100000, guid: 4bf191e087d334f4b887b96c9ddd8543, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: highlights
+    second: {fileID: 2100000, guid: f48ab26bcde714dc39d4ecd64729098b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nose.004
+    second: {fileID: 2100000, guid: a2a715d0b955e4d24a11894165649436, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
